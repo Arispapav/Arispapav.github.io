@@ -77,8 +77,8 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">The University of Texas at Dallas</strong> with the goal of pursuing a career in Cyber Secruity.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, I enjoy <strong className="text-stone-100"></strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
+        In my free time time, I enjoy <strong className="text-stone-100"> weight lifting </strong>, watching and playing soccer, 
+         <strong className="text-stone-100">banjo</strong>, or playing videos games.{' '}
         <strong className="text-stone-100">Vancouver Island</strong>.
       </p>
     </>
@@ -107,12 +107,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Dallas', text: '', Icon: MapIcon},
+    {label: 'Age', text: '20', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Greek / American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Soccer,Video Games,Fitness', Icon: SparklesIcon},
+    {label: 'Study', text: 'The University of Texas at Dallas', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Currently looking for Internships', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -128,12 +128,8 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'Greek',
+        level: 10,
       },
     ],
   },
